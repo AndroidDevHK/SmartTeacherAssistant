@@ -1,92 +1,134 @@
-Smart Teacher Assistant
-Overview
-The Smart Teacher Assistant is an Android application designed to simplify academic management for both institutions and individual users. It provides a user-friendly interface for administrators, teachers, and students to manage attendance, assessments, and reports efficiently.
-Features
-Institute Setup
-Admin:
-•	Academic Year/Semester Management:
-  o	Add academic years or semesters (e.g., Fall-2024, Term 2024).
-•	Class Management:
-  o	Add classes including students via Excel file or manually.
-•	Course Assignment:
-  o	Assign courses to classes manually or via Excel file.
-•	Attendance Reports:
-  o	View teachers' course attendance reports.
-o	Generate and share teachers' course attendance reports in Excel format.
-•	Student Reports:
-  o	View complete reports for each student including attendance and assessments in a single PDF.
-  o	Share student reports via WhatsApp.
-•	Repeaters Management:
-  o	Add repeaters for courses.
-•	Course Assignment to Teachers:
-  o	Assign courses to teachers through the UI.
-•	Role Management:
-  o	Create other roles such as teachers and students.
-•	User Permissions:
-  o	Manage user permissions including activating, deactivating accounts, and resetting passwords (for teachers only).
-Teacher:
-•	Attendance Management:
-  o	Mark attendance for assigned courses according to the academic year/semester duration.
-•	Assessment Management:
-  o	Add assessments (quizzes, assignments, presentations).
-•	Reports:
-  o	View and generate attendance reports of courses in Excel and PDF formats.
-  o	View and generate student evaluation reports (quizzes, assignments, presentations) in Excel format.
-  o	Generate a complete report (attendance + evaluation) in a single Excel file.
-o	Share reports via WhatsApp.
-•	Quiz Management:
-  o	Create quizzes for students and save quiz results.
-Student:
-•	Attendance Report:
-  o	View self-attendance report within the app.
-•	Evaluation Report:
-  o	View self-evaluation reports (tests/quizzes, assignments, presentations).
-•	Quiz Participation:
-  o	Solve and submit quizzes made by teachers.
-Solo Setup
-Admin:
-•	Academic Year/Semester Management:
-  o	Add academic years or semesters (e.g., Fall-2024, Term 2024).
-•	Class Management:
-  o	Add classes including students via Excel file or manually.
-•	Course Assignment:
-  o	Assign courses to classes manually or via Excel file.
-•	Reports:
-  o	View and generate student reports including attendance and assessments in a single PDF.
-  o	Share student reports via WhatsApp.
-•	Repeaters Management:
-  o	Add repeaters for courses.
-•	Course Assignment to Teachers:
-  o	Assign courses to teachers through the UI.
-•	Role Management:
-  o	Create roles such as students.
-•	Attendance and Assessment Management:
-  o	Mark attendance for assigned courses.
-  o	Add assessments (quizzes, assignments, presentations).
-•	Reports:
-  o	View and generate attendance and evaluation reports in Excel and PDF formats.
-  o	Generate and share complete reports (attendance + evaluation) in a single Excel file.
-  o	Share reports via WhatsApp.
-•	Quiz Management:
-  o	Create quizzes for students and save quiz results.
-Student:
-•	Attendance Report:
-  o	View self-attendance report within the app.
-•	Evaluation Report:
-  o	View self-evaluation reports (tests/quizzes, assignments, presentations).
-•	Quiz Participation:
-  o	Solve and submit quizzes made by teachers.
-Technologies
-•	IDE: Android Studio
-•	Front-End: XML
-•	Backend Language: Java
-•	Database: Firebase Firestore
-•	Authentication: Firebase Authentication
-•	Libraries:
-o	Android POI: For Excel report generation
-o	MPAndroidChart: For visualizing attendance in charts
-o	iText: For PDF report generation
-o	Gson: For storing offline marked attendance and assessments
-o	Lottie Animation: For loading animations
-o	RecyclerView: For displaying data
 
+# Smart Teacher Assistant (Andriod App)
+
+The Smart Teacher Assistant is an Android application designed to simplify academic management for both institutions and individual users. It provides a user-friendly interface for administrators, teachers, and students to manage attendance, assessments, and reports efficiently.
+
+
+
+## App Usage Presentation
+
+ - [Open Here](https://docs.google.com/presentation/d/1D-RV3ANlxJqHKA__D1baOULq2mufVF08/edit#slide=id.p46) (Note : Download and Open in MS Powerpoint for complete usage view)
+
+
+## App Features
+
+- Institute Signup
+- Solo Signup
+
+
+
+
+## Institute Signup Features
+
+### Academic Year/Semester Management
+- Add academic years or semesters (e.g., Fall-2024, Term 2024).
+
+### Class Management
+- Add classes and students via Excel file or manually.
+
+### Course Assignment
+- Assign courses to classes manually or via Excel file.
+
+### Attendance Reports
+- View and generate teachers' attendance reports.
+- Share reports in Excel format.
+
+### Student Reports
+- View and share comprehensive reports for each student, including attendance and assessments, in a single PDF.
+- Share reports via WhatsApp.
+
+### Repeaters Management
+- Add repeaters for courses.
+
+### Course Assignment to Teachers
+- Assign courses to teachers through the UI.
+
+### Role Management
+- Create roles for teachers and students.
+
+### User Permissions
+- Manage user accounts (activate, deactivate, reset passwords for teachers).
+
+## Teacher Features
+
+### Attendance Management
+- Mark attendance for assigned courses.
+
+### Assessment Management
+- Add assessments (quizzes, assignments, presentations).
+
+### Reports
+- View and generate attendance reports in Excel and PDF formats.
+- View and generate student evaluation reports.
+- Share reports via WhatsApp.
+
+### Quiz Management
+- Create and save quizzes for students.
+
+## Student Features
+
+### Attendance Report
+- View self-attendance report within the app.
+
+### Evaluation Report
+- View self-evaluation reports.
+
+### Quiz Participation
+- Solve and submit quizzes created by teachers.
+
+
+
+## Solo Setup
+
+### Admin Features
+
+#### Academic Year/Semester Management
+- Add academic years or semesters.
+
+#### Class Management
+- Add classes and students.(Excel file & Manual Method)
+
+#### Course Management
+- Add Courses for classes (Excel file & Manual Method)
+
+#### Reports
+- Generate and share student reports (attendance + assessments) in PDF format.
+
+#### Repeaters Management
+- Add repeaters for courses.
+
+#### Attendance and Assessment Management
+- Mark attendance and add assessments.
+
+#### Quiz Management
+- Create and save quizzes for students.
+
+### Student Features
+
+#### Attendance Report
+- View self-attendance report.
+
+#### Evaluation Report
+- View self-evaluation reports.
+
+#### Quiz Participation
+- Solve and submit quizzes.
+
+
+
+
+## Technologies
+
+- **IDE**: Android Studio
+- **Front-End**: XML
+- **Backend Language**: Java
+- **Database**: Firebase Firestore
+- **Authentication**: Firebase Authentication
+
+### Libraries
+- **Android POI**: For Excel report generation
+- **MPAndroidChart**: For visualizing attendance in charts
+- **iText**: For PDF report generation
+- **Gson**: For offline data storage (Faciliate mark attendance & add assessments report when no internet available)
+- **Lottie Animation**: For loading animations
+- **RecyclerView**: For data displaying
