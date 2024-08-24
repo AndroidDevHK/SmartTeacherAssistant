@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Smart Teacher Assistant</string>
+    <string name="add_semester">Add Semesters</string>
+    <string name="attendance_date">Attendance Date :</string>
+
+    <string-array name="signup_types_array">
+        <item>Individual</item>
+        <item>Institute</item>
+    </string-array>
+    <string-array name="login_role_array">
+        <item>Admin/Teacher</item>
+        <item>Student</item>
+    </string-array>
+    <string-array name="user_types">
+        <item>Teacher</item>
+        <item>Student</item>
+        <item>Principal</item>
+    </string-array>
+
+    <string-array name="select_options">
+        <item>Select</item>
+        <item>Present All</item>
+        <item>Absent All</item>
+    </string-array>
+</resources>

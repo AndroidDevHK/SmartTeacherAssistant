@@ -1,0 +1,38 @@
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:id="@+id/cardView_loading"
+    app:cardBackgroundColor="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android"> <!-- Example color, adjust as needed -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loading_animation"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="16dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_fileName="loading.json"
+            tools:ignore="MissingClass" />
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Loading..."
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#333333" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

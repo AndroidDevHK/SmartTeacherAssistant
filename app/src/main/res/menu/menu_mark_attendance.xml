@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_regular_std_attendance"
+        android:title="Mark Regular Student Attendance" />
+    <item
+        android:id="@+id/menu_repeaters_std_attendance"
+        android:title="Mark Repeaters Student Attendance" />
+</menu>

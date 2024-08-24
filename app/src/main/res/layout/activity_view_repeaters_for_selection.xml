@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="View_Students_List_To_Select_Repeaters_Activity.ViewRepeatersForSelectionActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/searchcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <SearchView
+            android:id="@+id/simpleSearchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search Student" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- No result found TextView -->
+    <TextView
+        android:id="@+id/noResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchcard"
+        android:layout_centerHorizontal="true"
+        android:text="No result found"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:visibility="gone"
+        android:layout_marginTop="8dp" />
+
+    <!-- RecyclerView to display the list of students -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewStudents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/noResultTextView"
+        android:layout_above="@id/saveChangesButton"
+        android:padding="15dp"
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:visibility="visible"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/select_repeater_item" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveChangesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#2196F3"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Save Changes" />
+
+</RelativeLayout>

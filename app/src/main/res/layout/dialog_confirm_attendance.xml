@@ -1,0 +1,138 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_toolbar_background"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewConfirmAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are you sure you want to confirm attendance?"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewAttendanceDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance Details"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/layoutAttendanceDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <!-- Present students -->
+                <TextView
+                    android:id="@+id/textViewPresent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Present:"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:paddingBottom="4dp" />
+
+                <LinearLayout
+                    android:id="@+id/layoutPresent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <!-- Absent students -->
+                <TextView
+                    android:id="@+id/textViewAbsent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Absent:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="4dp" />
+
+                <LinearLayout
+                    android:id="@+id/layoutAbsent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <!-- Leave students -->
+                <TextView
+                    android:id="@+id/textViewLeave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Leave:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="4dp" />
+
+                <LinearLayout
+                    android:id="@+id/layoutLeave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/buttonCancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:cornerRadius="0dp"
+                        android:layout_marginEnd="20dp"
+                        android:backgroundTint="#FF5722"
+                        android:text="Cancel" />
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/buttonOK"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        app:cornerRadius="0dp"
+                        android:backgroundTint="#FF5722"
+                        android:layout_height="wrap_content"
+                        android:text="OK" />
+
+                </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

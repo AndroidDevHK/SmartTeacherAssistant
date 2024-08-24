@@ -1,0 +1,157 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/stdcard"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/studentNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: Hasnat"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/studentRollNoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll No: 6425"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <!-- Attendance List -->
+        <LinearLayout
+            android:id="@+id/attendanceListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <!-- Date and Status Rows -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Date Column -->
+                    <TextView
+                        android:id="@+id/dateTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Date"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+                        android:textSize="16sp" />
+
+                    <!-- Status Column -->
+                    <TextView
+                        android:id="@+id/statusTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Status"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/totalAttendanceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: N/A"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:visibility="gone"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp" />
+
+            <!-- Total Absent -->
+            <TextView
+                android:id="@+id/totalAbsentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Absent: N/A"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:visibility="gone"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+
+            <!-- Total Presents -->
+            <TextView
+                android:id="@+id/totalPresentsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Presents: N/A"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:textColor="#555555"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/totalLeaveTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leave: N/A"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:textColor="#555555"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/percentageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Percentage: N/A"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:visibility="gone"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <!-- Pie Chart Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/barChart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="#ccc" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/card_toolbar_background"
+    android:padding="2dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutCourseName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColorHint="@color/white"
+        android:hint="Course Name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/CourseNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:padding="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutCrHours"
+        android:layout_width="0dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="@color/white"
+        android:hint="Cr. Hours">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/CrHoursEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginStart="5dp"
+            android:paddingStart="15dp"
+            android:inputType="numberDecimal" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

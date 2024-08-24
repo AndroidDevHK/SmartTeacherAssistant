@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ActivityManager"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_teacher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_teacher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HASNATFYP"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivitySample"
+            android:exported="false" />
+        <activity
+            android:name=".ResetCodeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="smartteacherassistant-35f0c.firebaseapp.com"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResetPasswordCodeActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubmitCourseQuizActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayStudentQuizResultsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewStudentQuizResultsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayStudentsQuizQuestionsResponsesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayQuizStudentsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayTeacherCourseQuizzesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SolveQuizActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AvailableQuizzesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayStudentUpcomingQuizActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MakeQuizTempActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayQuizQuestionsListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GenerateQuizActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MakeCourseQuizActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayStudentCourseEvaluationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayStudentCourseAttendanceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentLoginTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayInstituteSemestersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="OfflineEvluationManagement.EditOfflineEvaluationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayOfflineAddedEvaluationListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="DisplayStudentCompleteAttendanceEvaluation_Activity.DisplayStudentCompleteAttendanceEvaluationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplaySoloUserDashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DeleteEverythingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ManageCourseRepeatersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="DisplayInstituteTeachersForLoginActivity.DisplayInstituteTeachersListActivity"
+            android:label="Display Institute Teachers List Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExcludeCourseRegularStudentsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayUpdatedStudentsEvaluationMarksActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewSpecificEvaluationDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplaySubmittedAttendanceDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeacherDashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplaySubmittedEvaluationDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayCourseReportMenuActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditOfflineAttendanceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayOfflineMarkedAttendanceListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Complete_Course_Att_Eval_data_Activity.DisplayCompleteCourseStudentsDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Course_Students_Evaluation_Activity.DisplayCourseStudentsEvaluationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Edit_Course_Attendance_Activity.DisplayCourseSpecificDateAttendanceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Edit_Course_Attendance_Activity.EditCompleteCourseAttendanceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Course_Attendance_List_Activity.DisplayCourseAttendanceListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Edit_Course_Evaluation_Activity.DisplayCourseEvaluationDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Course_Evaluations_List_Activity.DisplayCourseEvaluationListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Students_To_Add_Evaluation_Activity.AddCourseStudentsEvaluation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Select_Class_Evaluation_Type_Activity.SelectClassStudentsEvaluationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Semester_Teacher_All_Courses_Attendance.DisplaySemesterTeachersAttendanceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Teacher_Courses_Attendance_Activity.DisplayTeacherCoursesAttendance"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Course_Attendance_Activity.DisplayClassCourseAttendanceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayStudentSemesterCourses"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayStudentSemestersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Mark_Course_Students_Attendance_Activity.MarkStudentsAttendanceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Teacher_Semester_Classes_Acitivity.DisplayTeacherSemesterClassesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Teacher_Semesters_Activity.DisplayTeacherSemesterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Course_Repeaters_Activity.ViewClassCourseRepeaters"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="View_Students_List_To_Select_Repeaters_Activity.ViewRepeatersForSelectionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="View_Classes_For_Repeaters_Selection_Activity.SelectClassForRepeatersAcitvity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Add_Class_Courses_Activities.AddClassCourseViaExcelActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Display_Institute_Teachers_To_Assign_Him_Course_Activity.DisplayInstituteTeachersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="View_Class_Courses_Activity.ManageCoursesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewUserTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ValidateCampus"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Add_View_Semester_Activity.ManageSemesterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Add_Class_Courses_Activities.AddClassCoursesManuallyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Add_Class_Activities.AddClassManuallyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="View_Class_Students_Activity.DisplayClassStudentsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="Add_Class_Activities.AddClassViaExcelFileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="View_Semester_Classes_Activity.ManageClassesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterUsersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectSetupActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.nextgen.hasnatfyp.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <receiver
+            android:name=".NetworkChangeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    tools:ignore="BatteryLife" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

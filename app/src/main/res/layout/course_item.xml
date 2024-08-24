@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_gradient"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- TextView for Course Details -->
+        <TextView
+            android:id="@+id/text_Course_Details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Course : Database Administration and Management (IT-372)\n\nCredit Hours : 3 "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <!-- ImageButton for Edit -->
+        <ImageButton
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp" />
+
+        <!-- ImageButton for Delete -->
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:visibility="gone"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- LinearLayout for Status Switch -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:gravity="center_vertical">
+
+        <!-- TextView for Switch Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Switch for Status -->
+        <Switch
+            android:id="@+id/switch_semester_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:thumbTint="#FFFFFF"
+            android:checked="false"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@drawable/rounded_corner_background"
+        android:layout_below="@id/text_number_of_classes"
+        android:gravity="center_horizontal">
+
+        <!-- First ImageView with label -->
+        <LinearLayout
+            android:id="@+id/LayoutExcludeRegStudents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="32dp">
+
+            <ImageView
+                android:id="@+id/image_view_student"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_view_students" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFCFC"
+                android:text="Exclude Reg. Students" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/LayoutAddRepeater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="32dp">
+
+            <ImageView
+                android:id="@+id/assign_course"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_course" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFCFC"
+                android:gravity="center"
+                android:text="Manage Repeaters" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <FrameLayout
+        android:id="@+id/LayoutTeachers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_background"> <!-- Here, you can define a drawable for the background with rounded corners or any other border style -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/teacherUsernameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Teacher Username"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"
+                android:drawablePadding="8dp"/>
+
+            <View
+                android:id="@+id/NameDivider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/white"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:id="@+id/teacherNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teacher Name"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"
+                android:drawablePadding="8dp"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/assignCourseTeacherTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assign Course Teacher"
+        android:background="@drawable/rounded_corner_background"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_marginStart="170dp"
+        android:drawablePadding="8dp"/>
+
+</LinearLayout>

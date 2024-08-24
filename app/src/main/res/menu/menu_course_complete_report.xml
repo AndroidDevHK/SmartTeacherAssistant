@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_view_complete_regular_std_report"
+        android:title="View Regular Students Complete Report" />
+    <item
+        android:id="@+id/menu_view_complete_repeaters_std_report"
+        android:title="View Repeater Students Complete Report" />
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomDatePickerDialogTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/primaryColor</item> <!-- Customize the primary color -->
+        <item name="colorPrimaryVariant">@color/primaryVariantColor</item> <!-- Customize the primary variant color -->
+        <item name="android:colorAccent">@color/accentColor</item> <!-- Customize the accent color -->
+    </style>
+
+        <style name="CardViewWithBorder" parent="Widget.MaterialComponents.CardView">
+            <item name="cardCornerRadius">6dp</item>
+            <item name="cardElevation">2dp</item>
+            <item name="cardBackgroundColor">@android:color/white</item>
+            <item name="strokeColor">@color/border_color</item>
+            <item name="strokeWidth">2dp</item>
+        </style>
+
+
+
+
+</resources>

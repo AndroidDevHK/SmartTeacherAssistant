@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Include Toolbar -->
+    <include layout="@layout/toolbar" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_teacher" />
+
+    <!-- Card for adding class -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/addCoursesCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <!-- Content inside the card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/card_gradient">
+
+            <!-- Heading "Add Courses" -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Add Courses"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- File Picker -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="16dp">
+
+                <!-- Label "Select File" -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select File (Only Excel File) : "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+                <!-- File Picker MaterialButton -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/filepickerbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose"
+                    android:textSize="16sp"
+                    app:cornerRadius="4dp"
+                    app:iconGravity="textStart"
+                    app:iconPadding="8dp"
+                    app:backgroundTint="#FF9800" />
+            </LinearLayout>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/white"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Note -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note: To get template excel file for adding courses please visit"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginTop="16dp" />
+
+            <!-- Link to download template excel file -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="www.bit.ly/addclasstemp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:autoLink="web"
+                android:onClick="onTemplateLinkClicked" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card for Course Details -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CourseDetailsCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addCoursesCard"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <!-- Content inside the card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/card_gradient">
+
+            <!-- Class Name -->
+            <TextView
+                android:id="@+id/text_class_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Courses"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/white"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Scrollable Layout for Courses -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:id="@+id/CoursesListLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+            </ScrollView>
+
+            <!-- Save Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textColor="@android:color/white"
+                app:backgroundTint="#FF9800"
+                app:cornerRadius="4dp"
+                android:layout_marginTop="16dp"
+                android:onClick="onSaveButtonClick" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

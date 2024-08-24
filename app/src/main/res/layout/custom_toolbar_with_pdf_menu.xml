@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#2196F3"
+    app:titleTextColor="@android:color/white"
+    android:minHeight="?attr/actionBarSize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Toolbar Title -->
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Attendance Report"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- First Logo -->
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_excel"
+            android:clickable="true"
+            android:visibility="invisible"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Divider Line -->
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:visibility="invisible"
+            android:background="@android:color/white"
+            android:layout_marginEnd="6dp"/>
+
+        <!-- Second Logo -->
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pdf"
+            android:clickable="true"
+            android:layout_marginEnd="7dp"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

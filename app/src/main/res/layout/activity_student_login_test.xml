@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentLoginTestActivity">
+
+    <!-- User ID EditText -->
+    <EditText
+        android:id="@+id/editTextUserId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="User ID"
+        android:inputType="text"
+        android:text="S0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Student Roll No EditText -->
+    <EditText
+        android:id="@+id/editTextStudentRollNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Student Roll No"
+        android:inputType="text"
+        android:text="6402"
+        app:layout_constraintTop_toBottomOf="@id/editTextUserId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        app:layout_constraintTop_toBottomOf="@id/editTextStudentRollNo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

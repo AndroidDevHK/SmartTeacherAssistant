@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:background="@android:color/black"
+    android:visibility="gone">
+
+    <!-- Numeric keys -->
+    <Button android:id="@+id/key1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1" />
+    <Button android:id="@+id/key2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="2" />
+    <Button android:id="@+id/key3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3" />
+    <Button android:id="@+id/key4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="4" />
+    <Button android:id="@+id/key5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="5" />
+    <Button android:id="@+id/key6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="6" />
+    <Button android:id="@+id/key7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="7" />
+    <Button android:id="@+id/key8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="8" />
+    <Button android:id="@+id/key9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="9" />
+    <Button android:id="@+id/key0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0" />
+
+    <!-- Absent key -->
+    <Button android:id="@+id/keyA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="A"
+        android:background="@android:color/holo_red_dark" />
+
+    <!-- Backspace key -->
+    <Button android:id="@+id/keyBackspace"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="←"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>

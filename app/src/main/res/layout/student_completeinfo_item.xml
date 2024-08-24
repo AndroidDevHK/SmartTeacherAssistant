@@ -1,0 +1,221 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/stdcard"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="8dp"
+    app:strokeColor="@color/accent4"
+    app:strokeWidth="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/CourseNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course : Database"
+            android:textStyle="bold"
+            android:textColor="@color/accent4"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/studentRollNoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Type : Regular/Repeating"
+            android:textStyle="bold"
+            android:textColor="@color/accent4"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Evaluation Details : "
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF0047"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/noEvaluationAvailableTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="No Evaluation Available"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="1dp">
+
+            <LinearLayout
+                android:id="@+id/EvaluationListLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:padding="1dp">
+
+                <!-- Header row -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:text="Evaluation"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textSize="12dp"
+                        android:background="@drawable/header_cell_border"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Obt. Marks"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:padding="8dp"
+                        android:textSize="12dp"
+
+                        android:gravity="center"
+                        android:background="@drawable/header_cell_border"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Total Marks"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12dp"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:background="@drawable/header_cell_border"/>
+                </LinearLayout>
+
+                <!-- Example evaluation row -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:text="Assignment #1"
+                        android:textColor="@color/accent4"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:background="@drawable/header_cell_border"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="45"
+                        android:textColor="@color/accent4"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:background="@drawable/header_cell_border"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="50"
+                        android:textColor="@color/accent4"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:background="@drawable/header_cell_border"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/SumMarksDetailsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:text="Total Marks / Obtained Marks : "
+                android:textStyle="bold"
+                android:textColor="@color/accent4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/EvalMarksPercentageDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:text="Percentage : "
+                android:textStyle="bold"
+                android:textColor="@color/accent4"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/atttendancetxtview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Attendance : "
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/barChart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="#ccc" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

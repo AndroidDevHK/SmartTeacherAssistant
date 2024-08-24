@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Serial Number TextView -->
+        <TextView
+            android:id="@+id/text_serial_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1."
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingStart="3dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:paddingTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_student_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hasnat Khalid"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/text_roll_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6425"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+            <!-- Hidden TextView for classId -->
+            <TextView
+                android:id="@+id/classIdTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- LinearLayout for obtained marks -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <!-- Simple EditText for entering obtained marks -->
+            <EditText
+                android:id="@+id/editText_obtained_marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Obtained Marks"
+                android:padding="5dp"
+                android:text="1"
+                android:background="@drawable/edittext_bg"
+                android:textAlignment="center"
+                android:inputType="numberDecimal"
+                android:textSize="14sp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

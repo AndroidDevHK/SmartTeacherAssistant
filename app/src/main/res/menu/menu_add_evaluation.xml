@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_regular_std_evaluation"
+        android:title="Add Regular Student Evaluation" />
+    <item
+        android:id="@+id/menu_repeaters_evaluation"
+        android:title="Mark Repeaters Student Evaluation" />
+</menu>

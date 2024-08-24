@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885452703743",
+    "project_id": "smartteacherassistant-35f0c",
+    "storage_bucket": "smartteacherassistant-35f0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885452703743:android:6a6951acf7e885470789ca",
+        "android_client_info": {
+          "package_name": "com.nextgen.hasnatfyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4il-XR6qBrT-mppU-DbGAxA-fBqNuQMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

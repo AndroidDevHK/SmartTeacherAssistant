@@ -1,0 +1,240 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/card_gradient">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Semester Name -->
+            <TextView
+                android:id="@+id/text_Class_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Class : IT - 7th"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Semester Name -->
+            <TextView
+                android:id="@+id/text_Course_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Course : Database Administartion and management"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/text_number_of_students"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Students : 20"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFCFC"
+            android:layout_marginBottom="5dp" />
+        <TextView
+            android:id="@+id/text_number_of_repeaters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Repeaters : 20"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFCFC"
+            android:layout_marginBottom="5dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white"
+            android:layout_marginTop="8dp"
+             />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/switch_semester_status"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp">
+
+
+            <LinearLayout
+                android:id="@+id/layout_mark_attendance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginEnd="32dp">
+
+                <ImageView
+                    android:id="@+id/image_mark_attendance"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_mark_attendance" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFCFC"
+                    android:text="Mark Attendance" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_manage_attendance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginEnd="32dp">
+
+                <ImageView
+                    android:id="@+id/image_manage_attendance"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_manage_attendance" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFCFC"
+                    android:text="Manage Attendance" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/switch_semester_status"
+            android:gravity="center_vertical">
+
+
+            <LinearLayout
+                android:id="@+id/layout_add_evaluation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginEnd="32dp">
+
+                <ImageView
+                    android:id="@+id/image_add_evaluation"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_add_class" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFCFC"
+                    android:text="Add Evaluation" />
+            </LinearLayout>
+
+            <!-- Second ImageView with label -->
+            <LinearLayout
+                android:id="@+id/layout_manage_evaluation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginEnd="32dp">
+
+                <ImageView
+                    android:id="@+id/image_manage_evaluation"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/manage_evaluation" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFCFC"
+                    android:text="Manage Evaluation" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/switch_semester_status"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:id="@+id/ViewCourseReportLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ImageViewCourseReportLayout"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_report" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Reports"
+                    android:textColor="#FFFCFC" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ViewQuizLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ImageViewQuizLayout"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_make_quiz" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Make Quiz"
+                    android:textColor="#FFFCFC" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

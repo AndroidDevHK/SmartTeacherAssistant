@@ -1,0 +1,8 @@
+<!-- res/drawable/card_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white" />
+    <corners android:radius="6dp" />
+    <stroke
+        android:width="2dp"
+        android:color="#001FCC" /> <!-- Replace with your desired border color -->
+</shape>

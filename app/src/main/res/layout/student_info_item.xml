@@ -1,0 +1,107 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_gradient"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/text_semester_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class : IT - 7th"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+
+        <LinearLayout
+            android:id="@+id/totalStudentsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_below="@id/text_semester_name"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_student"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/text_total_students"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Total Students: 50"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/registeredStudentsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_below="@id/totalStudentsLayout"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_registered"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/text_registered_students_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Registered Students: 40"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/unregisteredStudentsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_below="@id/registeredStudentsLayout"
+            android:layout_marginTop="8dp"
+            tools:ignore="NotSibling">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_not_registered"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/text_unregistered_students_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unregistered Students: 10"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

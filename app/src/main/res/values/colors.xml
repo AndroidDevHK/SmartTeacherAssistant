@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="accent4">#3F51B5</color>
+    <color name="headerBackground">#673AB7</color>
+    <color name="headerText">#FFFFFF</color>
+    <color name="border_color">#000000</color> <!-- Example border color -->
+    <color name="primaryColor">#3F51B5</color> <!-- Customize your primary color -->
+    <color name="primaryVariantColor">#303F9F</color> <!-- Customize your primary variant color -->
+    <color name="accentColor">#FF4081</color>
+    <color name="record_background_color">#F5F5F5</color>
+    <color name="gray">#E91E63</color> <!-- Customize your accent color -->
+
+</resources>

@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_manage_regular_std_eval"
+        android:title="Manage Regular Student Evaluation" />
+    <item
+        android:id="@+id/menu_manage_repeaters_std_eval"
+        android:title="Manage Repeaters Student Evaluation" />
+</menu>

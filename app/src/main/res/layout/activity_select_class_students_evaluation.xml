@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/customtoolbar"
+        layout="@layout/toolbar" />
+
+    <!-- CardView containing Course Details -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/coursedetailcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customtoolbar"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Class : " />
+
+            <TextView
+                android:id="@+id/classNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Course : "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/courseNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+    <!-- CardView containing EditTexts -->
+<androidx.cardview.widget.CardView
+android:id="@+id/cardView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/coursedetailcard"
+android:layout_margin="16dp"
+app:cardElevation="4dp"
+app:cardCornerRadius="8dp">
+
+<LinearLayout
+    android:id="@+id/layouteval"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextInputLayout for entering Evaluation -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Evaluation (e.g Mid Term)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_evaluation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- TextInputLayout for entering Evaluation Total Marks -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Evaluation Total Marks"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_total_marks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <!-- Button for Next -->
+<com.google.android.material.button.MaterialButton
+android:id="@+id/button_next"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/cardView"
+android:layout_centerHorizontal="true"
+app:cornerRadius="0dp"
+android:layout_margin="16dp"
+android:backgroundTint="#03A9F4"
+android:onClick="OpenAddEvaluationActivity"
+android:text="Next" />
+    </RelativeLayout>

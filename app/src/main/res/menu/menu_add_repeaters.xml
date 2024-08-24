@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add_repeaters_via_excel"
+        android:title="Add Repeaters via Excel" />
+    <item
+        android:id="@+id/menu_add_repeaters_manually"
+        android:title="Add Repeaters Manually" />
+</menu>
