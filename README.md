@@ -37,7 +37,7 @@ Below are the screenshots of the student-wise report preview:
 
 ## Term/Semester Wise Teacher Attendance Report Preview
 
-Below is a screenshot of the term/semester-wise teacher attendance report preview:
+Below is a screenshot of the term/semester-wise teacher attendance report (PDF Preview):
 
 <p align="center">
   <img src="AdminUIScreenshots/Teacher%20Attendance%20Report%20%E2%80%94%20SPRING%202024-page-001.jpg" alt="Teacher Attendance Report Page 1" width="300"/>
