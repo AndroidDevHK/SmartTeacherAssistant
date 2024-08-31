@@ -123,6 +123,24 @@ Below are the reports generated from the Teacher UI:
 - [Download Evaluation Report Excel (Evaluation Report  — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Evaluation%20Report%20%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
 
 
+# Student UI Screenshots
+
+Here are all the screenshots of the Student UI:
+
+<p align="center">
+  <img src="StudentUIScreenshots/1.jpg" alt="Screenshot 1" width="200" style="margin-right: 10px;"/>
+  <img src="StudentUIScreenshots/2.jpg" alt="Screenshot 2" width="200" style="margin-right: 10px;"/>
+  <img src="StudentUIScreenshots/3.jpg" alt="Screenshot 3" width="200" style="margin-right: 10px;"/>
+  <img src="StudentUIScreenshots/3a.jpg" alt="Screenshot 3a" width="200" style="margin-right: 10px;"/>
+  <img src="StudentUIScreenshots/4.jpg" alt="Screenshot 4" width="200" style="margin-right: 10px;"/>
+  <img src="StudentUIScreenshots/5.jpg" alt="Screenshot 5" width="200" style="margin-right: 10px;"/>
+  <img src="StudentUIScreenshots/5b.jpg" alt="Screenshot 5b" width="200" style="margin-right: 10px;"/>
+  <img src="StudentUIScreenshots/5c.jpg" alt="Screenshot 5c" width="200" style="margin-right: 10px;"/>
+  <img src="StudentUIScreenshots/5d.jpg" alt="Screenshot 5d" width="200" style="margin-right: 10px;"/>
+  <img src="StudentUIScreenshots/5e.jpg" alt="Screenshot 5e" width="200"  style="margin-right: 10px;"/>
+    <img src="StudentUIScreenshots/5f.jpg" alt="Screenshot 5f" width="200"/>
+</p>
+
 
 ## App Features
 
