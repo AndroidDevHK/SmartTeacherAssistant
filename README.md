@@ -1,5 +1,5 @@
 
-# Smart Teacher Assistant (Andriod App)
+# Smart Teacher Assistant (Andriod App) - Universal LMS
 
 The Smart Teacher Assistant is an Android application designed to simplify academic management for both institutions and individual users. It provides a user-friendly interface for administrators, teachers, and students to manage attendance, assessments, and reports efficiently.
 
@@ -67,6 +67,11 @@ Here are all the screenshots of the Teacher UI:
   <img src="TeacherUIScreenshots/8.jpg" alt="Screenshot 8" width="200" style="margin-right: 10px;"/>
   <img src="TeacherUIScreenshots/9.jpg" alt="Screenshot 9" width="200" style="margin-right: 10px;"/>
   <img src="TeacherUIScreenshots/10.jpg" alt="Screenshot 10" width="200" style="margin-right: 10px;"/>
+    <img src="TeacherUIScreenshots/10a.jpg" alt="Screenshot 10a" width="200" style="margin-right: 10px;"/>
+    <img src="TeacherUIScreenshots/10b.jpg" alt="Screenshot 10b" width="200" style="margin-right: 10px;"/>
+    <img src="TeacherUIScreenshots/10c.jpg" alt="Screenshot 10c" width="200" style="margin-right: 10px;"/>
+    <img src="TeacherUIScreenshots/10d.jpg" alt="Screenshot 10d" width="200" style="margin-right: 10px;"/>
+    <img src="TeacherUIScreenshots/10e.jpg" alt="Screenshot 10e" width="200" style="margin-right: 10px;"/>
   <img src="TeacherUIScreenshots/11.jpg" alt="Screenshot 11" width="200" style="margin-right: 10px;"/>
   <img src="TeacherUIScreenshots/12.jpg" alt="Screenshot 12" width="200" style="margin-right: 10px;"/>
   <img src="TeacherUIScreenshots/13.jpg" alt="Screenshot 13" width="200" style="margin-right: 10px;"/>
