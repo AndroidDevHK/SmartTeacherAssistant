@@ -244,7 +244,7 @@ Contain Three Roles
 
 
 
-# Student Features (Solo Setup Also Include Student Role)
+# Student User Features (Solo Setup Also Include Student Role)
 
 #### Attendance Report - Student
 - View self-attendance report.
