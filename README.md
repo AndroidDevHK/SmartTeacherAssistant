@@ -72,20 +72,8 @@ Here are all the screenshots of the Teacher UI:
   <img src="TeacherUIScreenshots/14.jpg" alt="Screenshot 14" width="200"/>
 </p>
 
-## App Generated Report from the Teacher UI
 
-Below are the reports generated from the Teacher UI:
-
-- [Download MID TERM Report (MID TERM — Software Engineering (IT-223) — ECONOMICS - 3RD — SPRING 2024.pdf)](TeacherUIScreenshots/MID%20TERM%20%E2%80%94%20Software%20Engineering%20(IT-223)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.pdf)
-- [Download Attendance Report (Attendance Report — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.pdf)](TeacherUIScreenshots/Attendance%20Report%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.pdf)
-- [Download Attendance Report Excel (Attendance Report — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Attendance%20Report%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
-- [Download Complete Report Excel (Complete Report  — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Complete%20Report%20%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
-- [Download Evaluation Report Excel (Evaluation Report  — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Evaluation%20Report%20%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
-
-
-## Report Previews (Excel & PDF)
-
-Below are previews of the report files:
+# Report Previews (Excel & PDF)
 
 ## Attendance Report Screenshot
 
@@ -126,6 +114,16 @@ Below is a screenshot of the Attendance report preview:
 <p align="center">
   <img src="TeacherUIScreenshots/Complete%20Report%20(Excel).PNG" alt="Complete Report (Excel)" width="300"/>
 </p>
+
+## App Generated Report from the Teacher UI
+
+Below are the reports generated from the Teacher UI:
+
+- [Download MID TERM Report (MID TERM — Software Engineering (IT-223) — ECONOMICS - 3RD — SPRING 2024.pdf)](TeacherUIScreenshots/MID%20TERM%20%E2%80%94%20Software%20Engineering%20(IT-223)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.pdf)
+- [Download Attendance Report (Attendance Report — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.pdf)](TeacherUIScreenshots/Attendance%20Report%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.pdf)
+- [Download Attendance Report Excel (Attendance Report — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Attendance%20Report%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
+- [Download Complete Report Excel (Complete Report  — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Complete%20Report%20%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
+- [Download Evaluation Report Excel (Evaluation Report  — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Evaluation%20Report%20%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
 
 
 
