@@ -12,21 +12,26 @@ Here are some screenshots of the Admin UI:
 
 Here are all the screenshots of the Admin UI:
 
+# Admin UI Screenshots
+
+Here are all the screenshots of the Admin UI:
+
 <p align="center">
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-41-04-626_com.nextgen.hasnatfyp.jpg" alt="Screenshot 1" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-43-252_com.nextgen.hasnatfyp.jpg" alt="Screenshot 2" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-46-919_com.nextgen.hasnatfyp.jpg" alt="Screenshot 3" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-59-760_com.nextgen.hasnatfyp.png" alt="Screenshot 4" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-23-12-926_com.nextgen.hasnatfyp.jpg" alt="Screenshot 5" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-23-18-965_com.nextgen.hasnatfyp.jpg" alt="Screenshot 6" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-23-22-740_com.nextgen.hasnatfyp.jpg" alt="Screenshot 7" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-24-28-862_com.nextgen.hasnatfyp.jpg" alt="Screenshot 8" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-24-39-791_com.nextgen.hasnatfyp.jpg" alt="Screenshot 9" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-24-48-810_com.nextgen.hasnatfyp.jpg" alt="Screenshot 10" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-24-56-556_com.nextgen.hasnatfyp.jpg" alt="Screenshot 11" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-31-42-416_com.nextgen.hasnatfyp.jpg" alt="Screenshot 12" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-32-17-043_com.nextgen.hasnatfyp.jpg" alt="Screenshot 13" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-40-57-332_com.nextgen.hasnatfyp.jpg" alt="Screenshot 14" width="200"/>
+  <img src="AdminUIScreenshots/1.jpg" alt="Screenshot 1" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/2.jpg" alt="Screenshot 2" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/2a.jpg" alt="Screenshot 3" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/3.png" alt="Screenshot 4" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/4.jpg" alt="Screenshot 5" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/5.jpg" alt="Screenshot 6" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/6.jpg" alt="Screenshot 7" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/7.jpg" alt="Screenshot 8" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/8.jpg" alt="Screenshot 9" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/9.jpg" alt="Screenshot 10" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/9aa.jpg" alt="Screenshot 11" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/9b.jpg" alt="Screenshot 12" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/10.jpg" alt="Screenshot 13" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/11.jpg" alt="Screenshot 14" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/12.jpg" alt="Screenshot 15" width="200"/>
 </p>
 
 
