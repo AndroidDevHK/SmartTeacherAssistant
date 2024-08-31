@@ -7,20 +7,27 @@ The Smart Teacher Assistant is an Android application designed to simplify acade
 
 Here are some screenshots of the Admin UI:
 
+
 # Admin UI Screenshots
 
-Here are some screenshots of the Admin UI:
+Here are all the screenshots of the Admin UI:
 
 <p align="center">
   <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-41-04-626_com.nextgen.hasnatfyp.jpg" alt="Screenshot 1" width="200" style="margin-right: 10px;"/>
   <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-43-252_com.nextgen.hasnatfyp.jpg" alt="Screenshot 2" width="200" style="margin-right: 10px;"/>
   <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-46-919_com.nextgen.hasnatfyp.jpg" alt="Screenshot 3" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-59-760_com.nextgen.hasnatfyp.png" alt="Screenshot 4" width="200"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-59-760_com.nextgen.hasnatfyp.png" alt="Screenshot 4" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-23-12-926_com.nextgen.hasnatfyp.jpg" alt="Screenshot 5" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-23-18-965_com.nextgen.hasnatfyp.jpg" alt="Screenshot 6" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-23-22-740_com.nextgen.hasnatfyp.jpg" alt="Screenshot 7" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-24-28-862_com.nextgen.hasnatfyp.jpg" alt="Screenshot 8" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-24-39-791_com.nextgen.hasnatfyp.jpg" alt="Screenshot 9" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-24-48-810_com.nextgen.hasnatfyp.jpg" alt="Screenshot 10" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-24-56-556_com.nextgen.hasnatfyp.jpg" alt="Screenshot 11" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-31-42-416_com.nextgen.hasnatfyp.jpg" alt="Screenshot 12" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-32-17-043_com.nextgen.hasnatfyp.jpg" alt="Screenshot 13" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-40-57-332_com.nextgen.hasnatfyp.jpg" alt="Screenshot 14" width="200"/>
 </p>
-
-
-
-
 
 
 
