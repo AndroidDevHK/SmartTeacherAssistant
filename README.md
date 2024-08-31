@@ -16,6 +16,10 @@ Here are all the screenshots of the Admin UI:
 
 Here are all the screenshots of the Admin UI:
 
+# Admin UI Screenshots
+
+Here are all the screenshots of the Admin UI:
+
 <p align="center">
   <img src="AdminUIScreenshots/1.jpg" alt="Screenshot 1" width="200" style="margin-right: 10px;"/>
   <img src="AdminUIScreenshots/2.jpg" alt="Screenshot 2" width="200" style="margin-right: 10px;"/>
@@ -34,6 +38,12 @@ Here are all the screenshots of the Admin UI:
   <img src="AdminUIScreenshots/12.jpg" alt="Screenshot 15" width="200"/>
 </p>
 
+## App Generated Report from the Admin UI
+
+Below are the reports generated from the Admin UI:
+
+- [Download Complete Report (MARYAM MEHBOOB(9202) SPRING 2024 — Complete Report.pdf)](AdminUIScreenshots/MARYAM%20MEHBOOB(9202)%20SPRING%202024%20%E2%80%94%20Complete%20Report.pdf)
+- [Download Teacher Attendance Report (Teacher Attendance Report — SPRING 2024.pdf)](AdminUIScreenshots/Teacher%20Attendance%20Report%20%E2%80%94%20SPRING%202024.pdf)
 
 
 
