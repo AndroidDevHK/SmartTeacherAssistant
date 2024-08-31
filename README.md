@@ -249,7 +249,6 @@ Below are the reports generated from the Teacher UI:
 - **Lottie Animation**: For loading animations
 - **RecyclerView**: For data displaying
 
-## App Usage Presentation (Screenshot of app included also)
+## App Usage Presentation:
 
- - [Open Here](https://docs.google.com/presentation/d/1D-RV3ANlxJqHKA__D1baOULq2mufVF08/edit#slide=id.p46) (Note : Download and Open in MS Powerpoint for complete usage view)
-
+ - [Open Here](https://docs.google.com/presentation/d/1D-RV3ANlxJqHKA__D1baOULq2mufVF08/edit#slide=id.p46)
