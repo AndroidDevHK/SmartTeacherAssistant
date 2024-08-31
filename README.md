@@ -149,32 +149,37 @@ Here are all the screenshots of the Student UI:
 
 
 ## Institute Signup Features
-
-### Academic Year/Semester Management
+Contain Three Roles
+- Admin
+- Teacher
+- Student
+- 
+### Academic Year/Semester Management - Admin
 - Add academic years or semesters (e.g., Fall-2024, Term 2024).
 
-### Class Management
+### Class Management - Admin
 - Add classes and students via Excel file or manually.
+- Automatically Student Users Accounts Created that can be downloaded via file and can be shared to students for logging into app.
 
-### Course Assignment
+### Course Assignment - Admin
 - Assign courses to classes manually or via Excel file.
 
-### Attendance Reports
+### Attendance Reports - Admin 
 - View and generate teachers' attendance reports.
 - Share reports in Excel format.
 
-### Student Reports
+### Student Reports - Admin
 - View and share comprehensive reports for each student, including attendance and assessments, in a single PDF.
 - Share reports via WhatsApp.
 
-### Repeaters Management
+### Repeaters Management - Admin
 - Add repeaters for courses.
 
-### Course Assignment to Teachers
+### Course Assignment to Teachers - Admin
 - Assign courses to teachers through the UI.
 
-### Role Management
-- Create roles for teachers and students.
+### Role Management - Admin
+- Register Institute Teachers accounts
 
 ### User Permissions
 - Manage user accounts (activate, deactivate, reset passwords for teachers).
@@ -183,70 +188,73 @@ Here are all the screenshots of the Student UI:
 
 # Teacher Features
 
-### Attendance Management
+### Attendance Management - Teacher
 - Mark attendance for assigned courses.
 
-### Assessment Management
+### Assessment Management - Teacher
 - Add assessments (quizzes, assignments, presentations).
 
-### Reports
+### Course Wise Reports - Teachers
 - View and generate attendance reports in Excel and PDF formats.
 - View and generate student evaluation reports.
 - Share reports via WhatsApp.
 
-### Quiz Management
+### Quiz Management - Teacher
 - Create and save quizzes for students.
 
 
+# Student Features - Students
 
-# Student Features
-
-### Attendance Report
+### Attendance Report - Students
 - View self-attendance report within the app.
 
-### Evaluation Report
+### Evaluation Report - Students
 - View self-evaluation reports.
 
-### Quiz Participation
+### Quiz Participation - Students
 - Solve and submit quizzes created by teachers.
+- View Quiz Results
 
 
 
 # Solo Setup
 
-### Admin Features
+- This setup integrates both admin and teacher functionalities. After adding classes, the user will be able to perform all the actions and functions available to a teacher.
 
-#### Academic Year/Semester Management
+#### Academic Year/Semester Management - Solo User
 - Add academic years or semesters.
 
-#### Class Management
+#### Class Management - Solo User
 - Add classes and students.(Excel file & Manual Method)
 
-#### Course Management
+#### Course Management - Solo User
 - Add Courses for classes (Excel file & Manual Method)
 
-#### Reports
+#### Student Wise Complete Reports - Solo User
 - Generate and share student reports (attendance + assessments) in PDF format.
 
-#### Repeaters Management
+#### Repeaters Management - Solo User
 - Add repeaters for courses.
 
-#### Attendance and Assessment Management
+#### Attendance and Assessment Management - Solo User
 - Mark attendance and add assessments.
 
-#### Quiz Management
+#### Quiz Management - Solo User
 - Create and save quizzes for students.
 
-### Student Features
 
-#### Attendance Report
+
+# Student Features (Solo Setup Also Include Student Role)
+
+#### Attendance Report - Student
 - View self-attendance report.
 
-#### Evaluation Report
+#### Evaluation Report - Student
 - View self-evaluation reports.
 
-#### Quiz Participation
+#### Quiz Participation - Student
 - Solve and submit quizzes.
+- View Quiz Results
 
 
 
