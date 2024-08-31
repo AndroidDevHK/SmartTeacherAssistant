@@ -26,6 +26,7 @@ Here are all the screenshots of the Admin UI:
   <img src="AdminUIScreenshots/12.jpg" alt="Screenshot 15" width="200"/>
 </p>
 
+## Student Wise Report Screenshot (PDF Preview)
 Below are the screenshots of the student-wise report preview:
 <p align="center">
   <img src="AdminUIScreenshots/MARYAM%20MEHBOOB(9202)%20SPRING%202024%20%E2%80%94%20Complete%20Report-page-001.jpg" alt="Page 1" width="300" style="margin-bottom: 10px;"/>
@@ -34,7 +35,15 @@ Below are the screenshots of the student-wise report preview:
   <img src="AdminUIScreenshots/MARYAM%20MEHBOOB(9202)%20SPRING%202024%20%E2%80%94%20Complete%20Report-page-004.jpg" alt="Page 4" width="300"/>
 </p>
 
-## App Generated Report from the Admin UI
+## Term/Semester Wise Teacher Attendance Report Preview
+
+Below is a screenshot of the term/semester-wise teacher attendance report preview:
+
+<p align="center">
+  <img src="AdminUIScreenshots/Teacher%20Attendance%20Report%20%E2%80%94%20SPRING%202024-page-001.jpg" alt="Teacher Attendance Report Page 1" width="300"/>
+</p>
+
+## App Generated Report from the (Admin UI)
 
 Below are the reports generated from the Admin UI:
 
