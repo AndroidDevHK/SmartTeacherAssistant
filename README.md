@@ -26,8 +26,9 @@ Here are all the screenshots of the Admin UI:
   <img src="AdminUIScreenshots/12.jpg" alt="Screenshot 15" width="200"/>
 </p>
 
-## Student Wise Report Screenshot (PDF Preview)
-Below are the screenshots of the student-wise report preview:
+# Report Previews (PDFs)
+
+## App Generated Student Wise Report (PDF Preview) - Admin
 <p align="center">
   <img src="AdminUIScreenshots/MARYAM%20MEHBOOB(9202)%20SPRING%202024%20%E2%80%94%20Complete%20Report-page-001.jpg" alt="Page 1" width="300" style="margin-bottom: 10px;"/>
   <img src="AdminUIScreenshots/MARYAM%20MEHBOOB(9202)%20SPRING%202024%20%E2%80%94%20Complete%20Report-page-002.jpg" alt="Page 2" width="300" style="margin-bottom: 10px;"/>
@@ -35,9 +36,7 @@ Below are the screenshots of the student-wise report preview:
   <img src="AdminUIScreenshots/MARYAM%20MEHBOOB(9202)%20SPRING%202024%20%E2%80%94%20Complete%20Report-page-004.jpg" alt="Page 4" width="300"/>
 </p>
 
-## Term/Semester Wise Teacher Attendance Report Preview
-
-Below is a screenshot of the term/semester-wise teacher attendance report (PDF Preview):
+## App Generated Term/Semester Wise Teacher Attendance Report (PDF Preview) - Admin
 
 <p align="center">
   <img src="AdminUIScreenshots/Teacher%20Attendance%20Report%20%E2%80%94%20SPRING%202024-page-001.jpg" alt="Teacher Attendance Report Page 1" width="300"/>
@@ -118,17 +117,10 @@ Below are the reports generated from the Teacher UI:
 
 
 
-## App Usage Presentation (Screenshot of app included also)
-
- - [Open Here](https://docs.google.com/presentation/d/1D-RV3ANlxJqHKA__D1baOULq2mufVF08/edit#slide=id.p46) (Note : Download and Open in MS Powerpoint for complete usage view)
-
-
 ## App Features
 
 - Institute Signup
 - Solo Signup
-
-
 
 
 ## Institute Signup Features
@@ -162,7 +154,9 @@ Below are the reports generated from the Teacher UI:
 ### User Permissions
 - Manage user accounts (activate, deactivate, reset passwords for teachers).
 
-## Teacher Features
+
+
+# Teacher Features
 
 ### Attendance Management
 - Mark attendance for assigned courses.
@@ -178,7 +172,9 @@ Below are the reports generated from the Teacher UI:
 ### Quiz Management
 - Create and save quizzes for students.
 
-## Student Features
+
+
+# Student Features
 
 ### Attendance Report
 - View self-attendance report within the app.
@@ -191,7 +187,7 @@ Below are the reports generated from the Teacher UI:
 
 
 
-## Solo Setup
+# Solo Setup
 
 ### Admin Features
 
@@ -230,7 +226,7 @@ Below are the reports generated from the Teacher UI:
 
 
 
-## Technologies
+## Tool & Technologies
 
 - **IDE**: Android Studio
 - **Front-End**: XML
@@ -245,3 +241,8 @@ Below are the reports generated from the Teacher UI:
 - **Gson**: For offline data storage (Faciliate mark attendance & add assessments report when no internet available)
 - **Lottie Animation**: For loading animations
 - **RecyclerView**: For data displaying
+
+## App Usage Presentation (Screenshot of app included also)
+
+ - [Open Here](https://docs.google.com/presentation/d/1D-RV3ANlxJqHKA__D1baOULq2mufVF08/edit#slide=id.p46) (Note : Download and Open in MS Powerpoint for complete usage view)
+
