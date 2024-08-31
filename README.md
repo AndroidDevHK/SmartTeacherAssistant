@@ -75,15 +75,6 @@ Here are all the screenshots of the Teacher UI:
 
 # Report Previews (Excel & PDF)
 
-## Attendance Report Screenshot
-
-Below is a screenshot of the Attendance report preview:
-
-<p align="center">
-  <img src="TeacherUIScreenshots/Attendance%20Report%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024-page-001.jpg" alt="Attendance Report Page 1" width="300"/>
-</p>
-
-
 ### App Generated Course Attendance Summary Report (PDF file preview) - Teacher
 
 <p align="center">
