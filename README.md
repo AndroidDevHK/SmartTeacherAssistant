@@ -23,7 +23,9 @@ Here are all the screenshots of the Admin UI:
   <img src="AdminUIScreenshots/9b.jpg" alt="Screenshot 12" width="200" style="margin-right: 10px;"/>
   <img src="AdminUIScreenshots/10.jpg" alt="Screenshot 13" width="200" style="margin-right: 10px;"/>
   <img src="AdminUIScreenshots/11.jpg" alt="Screenshot 14" width="200" style="margin-right: 10px;"/>
-  <img src="AdminUIScreenshots/12.jpg" alt="Screenshot 15" width="200"/>
+  <img src="AdminUIScreenshots/12.jpg" alt="Screenshot 15" width="200" style="margin-right: 10px;"/>
+    <img src="AdminUIScreenshots/13.jpg" alt="Screenshot 15" width="200" style="margin-right: 10px;"/>
+    <img src="AdminUIScreenshots/14.jpg" alt="Screenshot 15"/>
 </p>
 
 # Report Previews (PDFs)
