@@ -4,7 +4,7 @@
 The Smart Teacher Assistant is an Android application designed to simplify academic management for both institutions and individual users. It provides a user-friendly interface for administrators, teachers, and students to manage attendance, assessments, and reports efficiently.
 
 
-# Admin UI Screenshots
+## Admin UI Screenshots
 
 Here are all the screenshots of the Admin UI:
 
