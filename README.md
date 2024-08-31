@@ -51,6 +51,52 @@ Below are the reports generated from the Admin UI:
 - [Download Teacher Attendance Report (Teacher Attendance Report — SPRING 2024.pdf)](AdminUIScreenshots/Teacher%20Attendance%20Report%20%E2%80%94%20SPRING%202024.pdf)
 
 
+# Teacher UI Screenshots
+
+Here are all the screenshots of the Teacher UI:
+
+<p align="center">
+  <img src="TeacherUIScreenshots/1.jpg" alt="Screenshot 1" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/2.jpg" alt="Screenshot 2" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/3.jpg" alt="Screenshot 3" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/4.jpg" alt="Screenshot 4" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/5.jpg" alt="Screenshot 5" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/6.jpg" alt="Screenshot 6" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/7.jpg" alt="Screenshot 7" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/8.jpg" alt="Screenshot 8" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/9.jpg" alt="Screenshot 9" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/10.jpg" alt="Screenshot 10" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/11.jpg" alt="Screenshot 11" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/12.jpg" alt="Screenshot 12" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/13.jpg" alt="Screenshot 13" width="200" style="margin-right: 10px;"/>
+  <img src="TeacherUIScreenshots/14.jpg" alt="Screenshot 14" width="200"/>
+</p>
+
+## App Generated Report from the Teacher UI
+
+Below are the reports generated from the Teacher UI:
+
+- [Download MID TERM Report (MID TERM — Software Engineering (IT-223) — ECONOMICS - 3RD — SPRING 2024.pdf)](TeacherUIScreenshots/MID%20TERM%20%E2%80%94%20Software%20Engineering%20(IT-223)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.pdf)
+- [Download Attendance Report (Attendance Report — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.pdf)](TeacherUIScreenshots/Attendance%20Report%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.pdf)
+- [Download Attendance Report Excel (Attendance Report — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Attendance%20Report%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
+- [Download Complete Report Excel (Complete Report  — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Complete%20Report%20%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
+- [Download Evaluation Report Excel (Evaluation Report  — Mobile App Development (IT-407) — ECONOMICS - 3RD — SPRING 2024.xlsx)](TeacherUIScreenshots/Evaluation%20Report%20%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024.xlsx)
+
+## MID TERM Report Screenshot
+
+Below is a screenshot of the MID TERM report:
+
+<p align="center">
+  <img src="TeacherUIScreenshots/MID%20TERM%20%E2%80%94%20Software%20Engineering%20(IT-223)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024-page-001.jpg" alt="MID TERM Report Page 1" width="300"/>
+</p>
+
+## Attendance Report Screenshot
+
+Below is a screenshot of the Attendance report preview:
+
+<p align="center">
+  <img src="TeacherUIScreenshots/Attendance%20Report%20%E2%80%94%20Mobile%20App%20Development%20(IT-407)%20%E2%80%94%20ECONOMICS%20-%203RD%20%E2%80%94%20SPRING%202024-page-001.jpg" alt="Attendance Report Page 1" width="300"/>
+</p>
 
 
 ## App Usage Presentation (Screenshot of app included also)
