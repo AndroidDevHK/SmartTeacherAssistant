@@ -7,11 +7,17 @@ The Smart Teacher Assistant is an Android application designed to simplify acade
 
 Here are some screenshots of the Admin UI:
 
-<img src="AdminUIScreenshots/Screenshot_2024-08-15-17-41-04-626_com.nextgen.hasnatfyp.jpg" alt="Screenshot 1" width="200" style="margin-right: 10px;"/>
-<img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-43-252_com.nextgen.hasnatfyp.jpg" alt="Screenshot 2" width="200" style="margin-right: 10px;"/>
-<img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-46-919_com.nextgen.hasnatfyp.jpg" alt="Screenshot 3" width="200" style="margin-right: 10px;"/>
-<img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-59-760_com.nextgen.hasnatfyp.png" alt="Screenshot 4" width="200" style="margin-right: 10px;"/>
-<img src="AdminUIScreenshots/Screenshot_2024-08-15-17-23-12-926_com.nextgen.hasnatfyp.jpg" alt="Screenshot 5" width="200"/>
+# Admin UI Screenshots
+
+Here are some screenshots of the Admin UI:
+
+<p align="center">
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-41-04-626_com.nextgen.hasnatfyp.jpg" alt="Screenshot 1" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-43-252_com.nextgen.hasnatfyp.jpg" alt="Screenshot 2" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-46-919_com.nextgen.hasnatfyp.jpg" alt="Screenshot 3" width="200" style="margin-right: 10px;"/>
+  <img src="AdminUIScreenshots/Screenshot_2024-08-15-17-20-59-760_com.nextgen.hasnatfyp.png" alt="Screenshot 4" width="200"/>
+</p>
+
 
 
 
